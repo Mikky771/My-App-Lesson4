@@ -24,6 +24,6 @@ public class Main {
         double totalL = cost * 7;
         System.out.println("\nProduct # " + product );
         System.out.printf("Sales by day is %s %.2f%n", CURRENCY, costL);
-        System.out.printf("Total sales for 7 days is %s %.2f", CURRENCY, totalL);
+        System.out.printf("Total sales for 7 days is %s %.2f ", CURRENCY, totalL);
     }
 }
